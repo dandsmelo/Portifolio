@@ -21,6 +21,10 @@ body{
     background-color: #590969;
     margin:0;
 }
+#div-menu{
+    display: inline-flex;
+    margin-left: 65%;
+}
 #navbar-brand{
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
@@ -30,10 +34,6 @@ body{
     margin-left: 5px;
     display: block;
     text-align: center;
-}
-#div-menu{
-    display: inline-flex;
-    margin-left: 65%;
 }
 #menu li a{
     text-decoration: none;
@@ -54,11 +54,6 @@ body{
     ul li:hover {
     visibility: visible;
 }
-/*#submenu{
-    visibility: hidden;
-    text-align: center;
-    position: absolute;
-}*/
 /*css da section de apresentação*/
 .sec{
     margin: 100px;
@@ -136,13 +131,12 @@ footer{
     background-color: #590969;
     color: white;
     text-align: center;
-    height: 40px;
+    height: 70px;
     font-family: 'Poppins';
 }
 .icons{
-    height: auto;
+    margin-top: 15px;
+    height: 40px;
+    margin-left: 10px;
+    width: auto;
 }
-/*#fp{
-    font-family: 'Poppins';
-    font-style: italic;
-}*/
